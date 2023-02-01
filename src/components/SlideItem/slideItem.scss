@@ -54,13 +54,13 @@
 }
 @media (max-width: 375px) {
   .slideItem {
-    margin-bottom: 3.5em;
+    // margin-bottom: 3.5em;
     width: 100%;
 
     .slideItem__title {
       font-size: 2.5rem;
       line-height: 3.5rem;
-      width: 10em;
+      width: 100%;
     }
 
     .slideItem__text {
