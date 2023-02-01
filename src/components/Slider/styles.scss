@@ -1,0 +1,19 @@
+.slider {
+  display: grid;
+  place-items: center;
+
+  ul {
+    width: 240px;
+    height: 48px;
+    margin-bottom: 241px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+
+    input {
+      background: #ffffff;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
