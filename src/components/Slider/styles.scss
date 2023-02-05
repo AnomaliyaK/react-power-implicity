@@ -1,35 +1,34 @@
 .slider {
-  width: 100%;
   display: grid;
   place-items: center;
+  width: 100%;
 
-  ul {
-    width: 15em;
-    height: 3em;
-    margin-bottom: 15em;
+  &__list {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
+    width: 240px;
+    height: 48px;
+    margin-bottom: 240px;
 
-    input {
-      background: #ffffff;
+    &-input {
       width: 1em;
       height: 1em;
+      background: #ffffff;
     }
   }
 }
 @media (max-width: 768px) {
   .slider {
-    ul {
-      margin-bottom: 9em;
+    &__list {
+      margin-bottom: 120px;
     }
   }
 }
 @media (max-width: 375px) {
   .slider {
-    width: 20em;
-    ul {
-      margin-bottom: 5em;
+    &__list {
+      margin-bottom: 80px;
     }
   }
 }
